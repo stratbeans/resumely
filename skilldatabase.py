@@ -1,0 +1,23 @@
+skillDB = {
+    'Frontend' : [ "javascript", "css", "html5", "css3"],
+    'Frontend.UI' : [ "bootstrap"],
+    'Frontend.javascript.MVC' : [ "reactjs", "redux", "angular"],
+    'Frontend.javascript' : [ "jquery"],
+    "API" : ["ajax", "rest", "soap"],
+    "FullStack" : ["node.js", "fullstack"],
+    "Backend" : ["php", "php5", "php 5"],
+    "Database" : ["mysql", "mongodb","elasticsearch", "nosql"],
+    "Backend.MVC.php" : ["laravel", "yii", "zend", "lumen", "codeigniter"],
+    "Backend.language" : ["php", "python", "node", "node.js", "java"],
+    "Backend.php" : ["smarty"],
+    "Backend.MVC.javascript" : ["mean"],
+    "Backend.php.cms" : ["drupal", "wordpress"],
+    "Version" : ["git", "bitbucket"],
+    "Cloud" : ["aws", "rds", "cassandra"],
+    "Mobile" : ["ios", "android", "reactnative"],
+    "Mobile.native" : ["ionic"],
+    "Payment" : ["bitcoin", "stripe", "flexipin", "ccavenue"],
+    "SSO" : ["adfs", "oauth"],
+    "Programming Contest" : ["hackathon", "hackerrank", "hackerearth"],
+    "DataScience" : ["scikitlearn", "pandas", "numpy"]
+}
