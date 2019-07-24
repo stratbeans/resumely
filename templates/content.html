@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block content %}
+    <br>
+    <div class="container">
+      <p>{{filename}}</p>
+    </div>
+    <br>
+    <div class="container">
+      <div class="panel-group">
+        <div class="panel panel-info col-md-6">
+          {% for key,value in out_dict.items() %}
+            <div class="panel-heading">{{key}}</div>
+            <div class="panel-body">{{', '.join(value)}}</div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="container">
+        <div class="col-md-6">
+          {{plot_div}}
+        </div>
+      </div>
+    </div>
+
+{% endblock %}

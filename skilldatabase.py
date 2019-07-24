@@ -5,10 +5,9 @@ skillDB = {
     'Frontend.javascript' : [ "jquery"],
     "API" : ["ajax", "rest", "soap"],
     "FullStack" : ["node.js", "fullstack"],
-    "Backend" : ["php", "php5", "php 5"],
     "Database" : ["mysql", "mongodb","elasticsearch", "nosql"],
     "Backend.MVC.php" : ["laravel", "yii", "zend", "lumen", "codeigniter"],
-    "Backend.language" : ["php", "python", "node", "node.js", "java"],
+    "Backend.language" : ["php", "php5", "php 5", "python", "node", "node.js", "java"],
     "Backend.php" : ["smarty"],
     "Backend.MVC.javascript" : ["mean"],
     "Backend.php.cms" : ["drupal", "wordpress"],
@@ -19,5 +18,5 @@ skillDB = {
     "Payment" : ["bitcoin", "stripe", "flexipin", "ccavenue"],
     "SSO" : ["adfs", "oauth"],
     "Programming Contest" : ["hackathon", "hackerrank", "hackerearth"],
-    "DataScience" : ["scikitlearn", "pandas", "numpy"]
+    "DataScience" : ["scikitlearn", "pandas", "numpy","eda","regression","nlp","analysis"]
 }

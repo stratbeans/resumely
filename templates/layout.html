@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Resumely</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+	<h1>Resumely</h1>
+	<br>
+	<div class="form-group container">
+		<form action="/upload" class="form-inline" method="POST" enctype="multipart/form-data">
+			<input type="file" class="form-control" value="{{request.files.file}}" name="file">
+			<input class="btn btn-default" type="submit" value="upload">
+		</form>
+	</div>
+	{% block content %}
+	{% endblock %}
+</div>
+</body>
+</html>
